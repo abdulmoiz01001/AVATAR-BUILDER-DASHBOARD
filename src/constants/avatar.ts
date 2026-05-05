@@ -37,7 +37,7 @@ export const ASSET_POSITIONS = {
     femaleWidth: '33.5%',
     femaleHeight: '9.8%',
     top: '10.43%',
-    left: '48%',
+    left: '47.5%',
     zIndex: 20,
   },
   hair: {
