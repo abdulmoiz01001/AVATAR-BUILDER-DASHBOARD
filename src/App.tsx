@@ -19,7 +19,7 @@ function App() {
 
       {/* Decorative Side Bars */}
       <img src={leftBar} alt="" className="absolute left-0  md:-left-2 top-0 h-screen w-auto object-contain py-2 z-20 pointer-events-none" />
-      <img src={rightBar} alt="" className="absolute -right-22 md:-right-20 lg:-right-25 top-0 h-screen w-auto object-contain py-2 z-20 pointer-events-none" />
+      <img src={leftBar}  alt="" className="absolute -right-17 md:-right-20 -translate-x-[65px] scale-x-[-1] md:-translate-x-[88px]  lg:-right-23 top-0 h-screen w-auto object-contain py-2 z-20 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col h-auto md:h-screen w-full mx-auto rounded-3xl overflow-visible md:overflow-hidden shadow-2xl border border-white/5 my-auto">
         <Topbar />
