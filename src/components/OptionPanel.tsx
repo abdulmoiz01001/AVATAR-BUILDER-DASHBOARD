@@ -7,10 +7,9 @@ import { RotateCcw, Shuffle } from 'lucide-react';
 
 interface OptionPanelProps {
   activeTab: AssetCategory;
-  setActiveTab: (tab: AssetCategory) => void;
 }
 
-export const OptionPanel: React.FC<OptionPanelProps> = ({ activeTab, setActiveTab }) => {
+export const OptionPanel: React.FC<OptionPanelProps> = ({ activeTab }) => {
   const store = useAvatarStore();
   const activeAssetId = store[activeTab];
   const activeColor = store.colors[activeTab];
