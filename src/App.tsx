@@ -7,7 +7,7 @@ import { BottomBar } from './components/BottomBar';
 import type { AssetCategory } from './types/avatar';
 
 import leftBar from './assets/left-bar.svg';
-import rightBar from './assets/right-bar.svg';
+// import rightBar from './assets/right-bar.svg';
 
 function App() {
   const [activeTab, setActiveTab] = useState<AssetCategory>('eyes');
